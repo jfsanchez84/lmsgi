@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="instituto" content="IES Pablo Serrano">
+		<meta name="asignatura" content="Lenguaje de Marcas y Sistemas de Gestión de la Información">
+		<meta name="tarea" content="El lenguaje HTML">
+		<meta name="descripcion" content="Web Oposiciones Aragón">
+
+		<title>Oposiciones Aragón: Listado de Oposiciones</title>
+
+		<link rel="icon" href="../imagenes/favicon.png" type="image/png" sizes="16x16">
+
+		<!-- Lo dejo descomentado ya que aunque no se deberia poner estilos, las tablas se visualizan mejor, con bordes -->
+		<style>
+		table, th, td {
+		  border: 1px solid black;
+		  border-collapse: collapse;
+		}
+		</style> 
+
+	</head>
+	<body>
+		<header>
+			<h1>Oposiciones DGA</h1>
+			<nav>
+				<ul>
+					<li><a href="../index.html">Volver Página Principal</a></li>
+					<li><a href="#libre">Turno Libre</a></li>
+					<li><a href="#interna">Promoción Interna</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section>
+			<h2>Listado Oposiciones</h2>
+			<div id="libre">
+				<h3>Turno Libre</h3>
+				<table>
+					<tr>
+						<th>Grupo</th>
+						<th>Oposición</th>
+						<th>Temario Común</th>
+						<th>Temario Específico</th>
+						<th>Ver Temario</th>
+					</tr>
+					<tr>
+						<td rowspan="2">A1</td>
+						<td>Titulados Superiores en Informática</td>
+						<td>20 temas</td>
+						<td>90 temas</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Administradores Superiores</td>
+						<td colspan="2">120 temas</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td rowspan="2">A2</td>
+						<td>Técnicos en Informática</td>
+						<td>15 temas</td>
+						<td>45 temas</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Técnico de Gestión</td>
+						<td>15 temas</td>
+						<td>45 temas</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>C1</td>
+						<td>Ejecutivos de Informática</td>
+						<td>10 temas</td>
+						<td>30 temas</td>
+						<td><a href="temario.html">Acceder</a></td>
+					</tr>
+				</table>
+			</div>
+			<br/>
+			<br/>
+			<div id="interna">
+				<h3>Promoción Interna</h3>
+				<table>
+					<tr>
+						<th>Grupo</th>
+						<th>Oposición</th>
+						<th>Temario Común</th>
+						<th>Temario Específico</th>
+						<th>Descargar</th>
+					</tr>
+					<tr>
+						<td rowspan="3">C2</td>
+						<td>Auxiliar Administrativo</td>
+						<td rowspan="2" colspan="3">20 temas</td>
+					</tr>
+					<tr>
+						<td>Auxiliar Educación Especial</td>
+					</tr>
+					<tr>
+						<td>Auxiliar Enfermería</td>
+						<td>5 temas</td>
+						<td>15 temas</td>
+						<td><img src="../imagenes/descargar.png" width="25" alt="Descargar temario Auxiliar Enfermería" title="Descargar"/></td>
+					</tr>
+				</table>
+			</div>
+		</section>
+
+		<br/>
+
+		<section>
+			<h2>Enlaces de interés</h2>
+			<ul>
+				<li><a href="https://www.aragon.es/" target="_blank">Web Aragón</a></li>
+			</ul>
+		</section>
+		<hr/>
+		<footer>
+			<p><em>Copyright &copy; 2020 Oposiciones Aragón todos los derechos reservados.</em></p>
+		</footer>
+	</body>
+</html>
